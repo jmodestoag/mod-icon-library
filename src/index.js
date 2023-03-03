@@ -1,11 +1,14 @@
-import React from 'react'
+/* eslint-disable prettier/prettier */
+import modLibreriaIconos from './Icon'
 
-const Icon = (props) => {
-  const { name } = props
-  return (
-    //   <i aria-hidden="true" className={`icon icon-${name}`} />
-    <i aria-hidden='true' className={`${name}`} />
-  )
+import { ReactComponent as IconoNotificaciones } from './icons/notificaciones.svg'
+import { ReactComponent as IconoTicketPlus } from './icons/ticketPlus.svg'
+
+const iconos = {
+  notificaciones: IconoNotificaciones,
+  ticketPlus: IconoTicketPlus
 }
+
+const Icon = modLibreriaIconos(iconos)
 
 export default Icon

@@ -1,10 +1,10 @@
 {
   "name": "mod-icon-library",
-  "version": "2.0.8",
+  "version": "2.1.9",
   "description": "libreria de iconos test",
   "author": "JModestoAlvarezGomez",
   "license": "MIT",
-  "repository": "Modesto Alvarez/mod-icon-library",
+  "repository": "https://github.com/jmodestoag/mod-icon-library.git",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -12,9 +12,9 @@
     "node": ">=10"
   },
   "scripts": {
-    "build": "microbundle-crl --css-modules false  --no-compress --format modern,cjs && npm copy ",
-    "start": "microbundle-crl watch --css-modules false  --no-compress --format modern,cjs && npm copy",
-    "copy": "mkdir -p dist/icons/ && cp -a src/icons/. dist/icons/"
+    "build": "microbundle-crl --css-modules false  --no-compress --format modern,cjs && npm copy",
+    "start": "microbundle-crl watch --css-modules false  --no-compress --format modern,cjs & npm copy",
+    "copy": "mkdir -p dist/icons/ && cp -a src/icons/fonts/. dist/fonts/"
   },
   "peerDependencies": {
     "react": "^16.0.0"
@@ -38,7 +38,8 @@
     "prettier": "^2.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "webpack-cli": "^5.0.1"
   },
   "files": [
     "dist"

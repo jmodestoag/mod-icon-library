@@ -27,4 +27,4 @@ class Example extends Component {
 
 ## License
 
-MIT © [Modesto Alvarez](https://github.com/Modesto Alvarez)
+MIT © [Modesto Alvarez](https://github.com/jmodestoag)

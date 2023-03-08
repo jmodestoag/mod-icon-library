@@ -1,21 +1,20 @@
-/* eslint-disable prettier/prettier */
 import modLibreriaIconos from './Icon'
 
+import ticketPlusCircularIcon from './icons/ticketPlusCircularIcon'
+import ticketPlusIcon from './icons/TicketPlusIcon'
+import notificacionesIcon from './icons/notificacionesIcon'
+import chatReadIcon from './icons/chatReadIcon'
+import chatUnreadIcon from './icons/chatUnreadIcon'
+import deleteIcon from './icons/deleteIcon'
 
-import { ReactComponent as IconoNotificaciones } from './icons/notificaciones.svg'
-import { ReactComponent as IconoTicketPlus } from './icons/ticketPlus.svg'
-import { ReactComponent as IconoTicketPlusCircular } from './icons/ticketPlusCircular.svg'
-import { ReactComponent as IconoChatRead } from './icons/chatRead.svg'
-import { ReactComponent as IconoChatUnread } from './icons/chatUnread.svg'
-import {ReactComponent as IconDelete} from './icons/deleteIcon.svg'
 
 const iconos = {
-  notificaciones: IconoNotificaciones,
-  ticketPlus: IconoTicketPlus,
-  ticketPlusCircular: IconoTicketPlusCircular,
-  IconoChatUnread: IconoChatUnread,
-  IconoChatRead: IconoChatRead,
-  IconDelete: IconDelete
+  notificacionesIcon: notificacionesIcon,
+  ticketPlusIcon: ticketPlusIcon,
+  ticketPlusCircularIcon: ticketPlusCircularIcon,
+  chatReadIcon: chatReadIcon,
+  chatUnreadIcon: chatUnreadIcon,
+  deleteIcon: deleteIcon,
 }
 
 const Icon = modLibreriaIconos(iconos)

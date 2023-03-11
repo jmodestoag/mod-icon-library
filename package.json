@@ -1,6 +1,6 @@
 {
   "name": "mod-icon-library",
-  "version": "2.1.16",
+  "version": "2.1.17",
   "description": "libreria de iconos personalizados",
   "author": "JModestoAlvarezGomez",
   "license": "MIT",
@@ -8,6 +8,8 @@
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
+  "keywords": ["iconos, svg"],
+  "homepage": "https://github.com/jmodestoag/test-app-react.git",
   "engines": {
     "node": ">=10"
   },

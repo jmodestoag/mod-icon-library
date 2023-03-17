@@ -1,6 +1,6 @@
 {
   "name": "mod-icon-library",
-  "version": "2.1.17",
+  "version": "2.1.18",
   "description": "libreria de iconos personalizados",
   "author": "JModestoAlvarezGomez",
   "license": "MIT",
@@ -8,7 +8,9 @@
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
-  "keywords": ["iconos, svg"],
+  "keywords": [
+    "iconos, svg"
+  ],
   "homepage": "https://github.com/jmodestoag/test-app-react.git",
   "engines": {
     "node": ">=10"
@@ -19,7 +21,7 @@
     "copy": "mkdir -p dist/icons/ && cp -a src/icons/fonts/. dist/fonts/"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^18.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
@@ -38,9 +40,9 @@
     "microbundle-crl": "^0.13.10",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.0.4",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "^5.0.1",
+    "react": "^18.0.0",
+    "react-dom": "^16.14.0",
+    "react-scripts": "^2.1.3",
     "webpack-cli": "^5.0.1"
   },
   "files": [

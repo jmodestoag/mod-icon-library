@@ -24,7 +24,12 @@ class Example extends Component {
   }
 }
 ```
+PREVIEW
+![Iconos personalizados](https://github.com/jmodestoag/mod-icon-library/assets/57456689/3eb98d59-e8cb-402a-a667-e1eeb1e4546c)
 
 ## License
+
+
+
 
 MIT © [Modesto Alvarez](https://github.com/jmodestoag)
